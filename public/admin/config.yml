@@ -36,6 +36,7 @@ collections:
     fields:
       - { label: Name, name: title, widget: string }
       - { label: Description, name: description, widget: text }
+      - { label: Creator, name: author, widget: string, required: false, hint: "Credit the original creator when featuring someone else's work." }
       - { label: Project image, name: image, widget: image, required: false }
       - { label: URL, name: href, widget: string, hint: "Use a full URL or an internal path such as /." }
       - label: Technologies

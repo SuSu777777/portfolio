@@ -27,6 +27,8 @@ Then open `http://localhost:4321/admin/index.html`. The local CMS writes content
 On a deployed site, the editor requires a GitHub repository and an OAuth authentication provider. Before deploying, update `backend.repo` in `public/admin/config.yml` to the actual `owner/repository`, and configure a GitHub OAuth provider for Decap CMS. Only GitHub accounts with write access can publish. Until that connection is configured, use the local editor.
 
 Articles are stored in `src/content/blog/`; projects are stored in `src/content/projects/`.
+The project list also includes three credited links to Sebastian Lague's itch.io work as examples of featured projects.
+The Digital Logic Sim and Hydraulic Erosion screenshots come from their respective [itch.io project pages](https://sebastian.itch.io/).
 
 ## Add images
 
