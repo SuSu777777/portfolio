@@ -4,6 +4,7 @@ description: A fictional Unity delivery game concept set in a glowing city, buil
 author: Wongfengchen
 concept: true
 image: /uploads/neon-courier.svg
+article: /blog/neon-courier-route-design/
 tags:
   - Unity
   - C#

@@ -40,6 +40,7 @@ collections:
       - { label: Fictional concept, name: concept, widget: boolean, default: false, required: false, hint: "Mark ideas or fictional portfolio examples clearly." }
       - { label: Project image, name: image, widget: image, required: false }
       - { label: URL, name: href, widget: string, required: false, hint: "Leave blank for concepts without a live project." }
+      - { label: Related article, name: article, widget: string, required: false, hint: "Optional internal URL, such as /blog/my-article/." }
       - label: Technologies
         name: tags
         widget: list
