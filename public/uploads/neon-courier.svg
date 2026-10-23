@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Illustration of a courier travelling through a neon city">
+  <defs><linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#121936"/><stop offset="1" stop-color="#51354f"/></linearGradient><linearGradient id="road" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#24314b"/><stop offset="1" stop-color="#111b2b"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#sky)"/>
+  <circle cx="682" cy="165" r="80" fill="#ff7d9c" opacity=".8"/><circle cx="682" cy="165" r="120" fill="#ff7d9c" opacity=".08"/>
+  <path d="M0 373V130h120v220h70V90h110v260h58V178h130v194h70V102h116v260h67V204h96v164h70V130h103v245Z" fill="#192540"/>
+  <g fill="#73dce8" opacity=".75"><path d="M22 180h18v33H22zm48 0h18v33H70zm135-40h18v33h-18zm54 0h18v33h-18zm135 89h18v33h-18zm55 0h18v33h-18zm135-78h18v33h-18zm53 0h18v33h-18zm104 98h18v33h-18zm48 0h18v33h-18zm116-81h18v33h-18z"/></g>
+  <path d="M0 363h960" stroke="#ff72bb" stroke-width="8"/><path d="M0 399h960" stroke="#73dce8" stroke-width="4" opacity=".5"/>
+  <path d="M317 600 437 398h86l120 202Z" fill="url(#road)"/><path d="m407 600 65-202m81 0 65 202" stroke="#f579c1" stroke-width="4" opacity=".72"/><path d="M477 475h7m-11 46h16m-21 57h26" stroke="#ffe9ab" stroke-width="7" stroke-linecap="round"/>
+  <path d="M462 473h76l17 25-20 19h-67l-20-19Z" fill="#121c32" stroke="#7fe8ef" stroke-width="5"/><path d="M470 479h60l8 14h-76Z" fill="#b6faff" opacity=".65"/><circle cx="466" cy="511" r="7" fill="#ff75a5"/><circle cx="537" cy="511" r="7" fill="#ff75a5"/>
+  <text x="66" y="82" fill="#ffbad5" font-family="monospace" font-size="18" letter-spacing="5">NEON / COURIER</text><text x="67" y="110" fill="#aab9dc" font-family="monospace" font-size="11" letter-spacing="3">UNITY CONCEPT • 03</text>
+</svg>

@@ -29,6 +29,7 @@ On a deployed site, the editor requires a GitHub repository and an OAuth authent
 Articles are stored in `src/content/blog/`; projects are stored in `src/content/projects/`.
 The project list also includes three credited links to Sebastian Lague's itch.io work as examples of featured projects.
 The Digital Logic Sim and Hydraulic Erosion screenshots come from their respective [itch.io project pages](https://sebastian.itch.io/).
+The Selected Work section also contains three fictional Unity concepts. Their `concept: true` frontmatter flag adds a visible label, and they intentionally have no project URL. Replace them with real projects as work becomes available.
 
 ## Add images
 

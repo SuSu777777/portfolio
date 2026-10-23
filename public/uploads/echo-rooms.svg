@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Illustration of repeating rooms and glowing portals">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#12252c"/><stop offset="1" stop-color="#30294c"/></linearGradient><linearGradient id="portal"><stop stop-color="#64f5d8"/><stop offset="1" stop-color="#b4a0ff"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <path d="M0 445 481 257 960 445M0 520 481 332 960 520M0 595 481 407 960 595M160 600 645 317M400 600 764 365M640 600 882 412M880 600 960 567" stroke="#8ab8b4" stroke-opacity=".13" stroke-width="2" fill="none"/>
+  <path d="M161 385V175l249-95v210Z" fill="#24383f" stroke="#54827f" stroke-width="5"/><path d="M410 80 651 175v210L410 290Z" fill="#182c39" stroke="#54827f" stroke-width="5"/>
+  <path d="M410 290 651 385 409 480 161 385Z" fill="#2e3e49" stroke="#54827f" stroke-width="5"/>
+  <path d="M298 343V184l109-42v159Z" fill="#57cabf" opacity=".25" stroke="url(#portal)" stroke-width="7"/><path d="M337 328V211l70-27v117Z" fill="#99edcf" opacity=".36"/>
+  <path d="M474 326V180l115 45v147Z" fill="#8376d5" opacity=".24" stroke="#b4a0ff" stroke-width="7"/><path d="M508 339V228l47 19v111Z" fill="#afa0fc" opacity=".35"/>
+  <circle cx="406" cy="378" r="17" fill="#f4ead6"/><ellipse cx="406" cy="402" rx="38" ry="12" fill="#7dddc9" opacity=".24"/>
+  <path d="m406 378 122-48m-122 48-85-43" stroke="#a8f3e2" stroke-width="3" opacity=".6" stroke-dasharray="8 9"/>
+  <text x="72" y="83" fill="#c9f9eb" font-family="monospace" font-size="18" letter-spacing="5">ECHO / ROOMS</text><text x="73" y="111" fill="#9dc3c0" font-family="monospace" font-size="11" letter-spacing="3">UNITY CONCEPT • 02</text>
+</svg>
