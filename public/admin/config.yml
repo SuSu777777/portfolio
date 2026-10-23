@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: wfcgame/blog
+  repo: wfcgame/REPLACE_WITH_REPO_NAME
   branch: main
 
 local_backend: true
