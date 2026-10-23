@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Developer blog preview">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#dce9df"/><stop offset="1" stop-color="#bcd2c5"/></linearGradient></defs>
+  <rect width="900" height="500" fill="url(#bg)"/>
+  <rect x="125" y="65" width="650" height="370" rx="18" fill="#f7f6f2" stroke="#9db8a6" stroke-width="2"/>
+  <path d="M125 111h650" stroke="#cfddd2" stroke-width="2"/>
+  <circle cx="153" cy="88" r="6" fill="#88ab96"/><circle cx="174" cy="88" r="6" fill="#b0c7b6"/><circle cx="195" cy="88" r="6" fill="#cfddd2"/>
+  <rect x="164" y="147" width="96" height="17" rx="8" fill="#adcbb6"/>
+  <rect x="164" y="187" width="322" height="38" rx="8" fill="#20362f"/>
+  <rect x="164" y="240" width="266" height="38" rx="8" fill="#286f60"/>
+  <rect x="164" y="303" width="240" height="12" rx="6" fill="#b5c7bb"/>
+  <rect x="164" y="326" width="210" height="12" rx="6" fill="#cfddd2"/>
+  <rect x="164" y="370" width="135" height="34" rx="7" fill="#20362f"/>
+  <rect x="539" y="159" width="196" height="219" rx="13" fill="#20302d"/>
+  <path d="M560 202h110M560 232h146M560 262h105M560 292h136M560 322h78" stroke="#8fc2a0" stroke-width="9" stroke-linecap="round"/>
+</svg>

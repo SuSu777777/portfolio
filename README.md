@@ -28,6 +28,12 @@ On a deployed site, the editor requires a GitHub repository and an OAuth authent
 
 Articles are stored in `src/content/blog/`; projects are stored in `src/content/projects/`.
 
+## Add images
+
+In the editor, open an article and use **Cover image** to upload an image for the top of the article. To place images inside the article, use the image button in the **Article** Markdown editor. For a project, use **Project image**. All uploads are stored in `public/uploads/` and served from `/uploads/`.
+
+If you edit files manually, put an image in `public/uploads/` and use `coverImage: /uploads/file.jpg` in an article, `image: /uploads/file.jpg` in a project, or `![Description](/uploads/file.jpg)` in article Markdown.
+
 ## Publish an article manually
 
 Add a Markdown file to `src/content/blog/`. Its filename becomes the post URL.
