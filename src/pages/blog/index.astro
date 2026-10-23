@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+const posts = (await getCollection('blog')).sort((a,b)=>b.data.pubDate.valueOf()-a.data.pubDate.valueOf());
+const date = (value: Date) => new Intl.DateTimeFormat('en-US',{year:'numeric',month:'2-digit',day:'2-digit'}).format(value);
+---
+<!doctype html><html lang="en"><head><BaseHead title={`Writing | ${SITE_TITLE}`} description="Development notes by Wongfengchen" /></head><body><Header /><main class="shell"><div class="page-intro"><span class="eyebrow">THE JOURNAL</span><h1>Writing</h1><p>Notes on building, learning, and solving problems.</p></div><div class="post-list">{posts.map(post => <a class="post-row" href={`/blog/${post.id}/`}><span class="post-date">{date(post.data.pubDate)}</span><div><h3>{post.data.title}</h3><p>{post.data.description}</p></div><span class="post-arrow">↗</span></a>)}</div><div class="bottom-space"></div></main><Footer /></body></html>
+<style>.bottom-space{height:120px}</style>

@@ -1,0 +1,11 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+type Props = CollectionEntry<'blog'>['data'];
+const { title, description, pubDate, updatedDate } = Astro.props;
+const date = (value: Date) => new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric'}).format(value);
+---
+<!doctype html><html lang="en"><head><BaseHead title={title} description={description} /></head><body><Header /><main class="shell"><article><header class="article-header"><a class="back" href="/blog/">← All posts</a><span class="eyebrow">DEVELOPMENT JOURNAL</span><h1>{title}</h1><p>{description}</p><div class="article-meta"><time datetime={pubDate.toISOString()}>{date(pubDate)}</time>{updatedDate && <span>· Updated {date(updatedDate)}</span>}</div></header><div class="prose"><slot /></div></article></main><Footer /></body></html>
+<style>.article-header{max-width:740px;margin:0 auto;padding:65px 0 48px;border-bottom:1px solid var(--line);margin-bottom:50px}.back{display:block;color:var(--accent);font-size:14px;font-weight:700;margin-bottom:56px}.article-header h1{font-size:clamp(43px,6vw,66px);line-height:1.12;letter-spacing:-.065em;margin:12px 0}.article-header p{font-size:20px;color:var(--muted);margin:0 0 22px}.article-meta{font-size:13px;color:var(--muted)}</style>

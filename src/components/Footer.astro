@@ -1,0 +1,11 @@
+---
+import { PROFILE } from '../consts';
+---
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <span>© {new Date().getFullYear()} {PROFILE.name}</span>
+    <span>Think. Build. Write.</span>
+    <div class="footer-links"><a href="/admin/index.html">Editor</a><a href={PROFILE.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+  </div>
+</footer>
+<style>.footer-links{display:flex;gap:22px}</style>

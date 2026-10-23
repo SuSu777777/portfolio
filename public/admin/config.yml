@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: wfcgame/blog
+  branch: main
+
+local_backend: true
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: blog
+    label: Articles
+    label_singular: Article
+    folder: src/content/blog
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Summary, name: description, widget: text }
+      - { label: Publish date, name: pubDate, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Last updated, name: updatedDate, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: Article, name: body, widget: markdown }
+
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: src/content/projects
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Name, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: URL, name: href, widget: string, hint: "Use a full URL or an internal path such as /." }
+      - label: Technologies
+        name: tags
+        widget: list
+        required: false
+        field: { label: Technology, name: tag, widget: string }
