@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: wfcgame/REPLACE_WITH_REPO_NAME
+  repo: SuSu777777/portfolio
   branch: main
 
 local_backend: true
