@@ -1,5 +1,5 @@
-export const SITE_TITLE = 'Wongfengchen — Developer Journal';
-export const SITE_DESCRIPTION = 'Notes and projects by Wongfengchen.';
+export const SITE_TITLE = 'Wongfengchen — Developer Portfolio';
+export const SITE_DESCRIPTION = 'Developer portfolio, projects, and writing by Wongfengchen.';
 export const PROFILE = {
   name: 'Wongfengchen',
   email: 'wongfengchen8@gmail.com',

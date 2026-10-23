@@ -1,6 +1,6 @@
-# Wongfengchen Developer Blog
+# Wongfengchen Developer Portfolio
 
-A static personal blog based on the [official Astro Blog starter](https://astro.build/themes/details/blog/). It brings writing, projects, and contact information together in one place.
+A static developer portfolio based on the [official Astro Blog starter](https://astro.build/themes/details/blog/). It brings personal projects, writing, and contact information together in one place. Credited projects by other creators appear in a separate inspiration section.
 
 ## Run locally
 
